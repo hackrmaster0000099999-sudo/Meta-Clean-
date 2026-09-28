@@ -1,7 +1,7 @@
 'use client';
 
 import React, {useState} from 'react';
-import {ChevronDown, HelpCircle} from 'lucide-react';
+import {ChevronDown} from 'lucide-react';
 
 interface FaqItem {
   id: string;
@@ -56,17 +56,17 @@ export default function FaqSection() {
   };
 
   return (
-    <section id="faq" className="py-20 bg-white border-t border-slate-200">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="faq" className="w-full pt-4">
+      <div className="w-full">
         {/* Header */}
-        <div className="text-left mb-12">
+        <div className="text-center max-w-xl mx-auto mb-10">
           <span className="text-xs font-bold text-indigo-600 uppercase tracking-widest block mb-2">
-            Section 07 · Frequently Asked Questions
-          </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
             Frequently Asked Questions
+          </span>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            Got Questions? We Have Answers
           </h2>
-          <p className="mt-3 text-base text-slate-600 leading-relaxed">
+          <p className="mt-2 text-xs sm:text-sm text-slate-500 leading-relaxed">
             Everything you need to know about AI metadata, C2PA digital signatures, and how
             MetaClean restores your organic social reach.
           </p>
@@ -106,24 +106,6 @@ export default function FaqSection() {
               </div>
             );
           })}
-        </div>
-
-        {/* Additional support contact prompt */}
-        <div className="mt-10 p-6 rounded-2xl bg-indigo-50/50 border border-indigo-100 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div>
-            <h4 className="text-sm font-bold text-slate-900">
-              Have another question or need developer support?
-            </h4>
-            <p className="text-xs text-slate-600 mt-0.5">
-              Contact our mobile development engineering team directly.
-            </p>
-          </div>
-          <a
-            href="mailto:support@metaclean.app"
-            className="px-4 py-2.5 rounded-lg text-xs font-semibold bg-white text-indigo-700 border border-indigo-200 hover:bg-indigo-50 transition-colors shrink-0 shadow-xs"
-          >
-            support@metaclean.app
-          </a>
         </div>
       </div>
     </section>
