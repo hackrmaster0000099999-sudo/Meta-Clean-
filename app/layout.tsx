@@ -9,6 +9,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://metaclean.app'),
   title: 'meta Clean App Download – AI Detection Bypass & C2PA Metadata Cleaner',
   description:
     'Bypass social media AI detection and preserve organic reach. Download MetaClean Android APK to strip C2PA signatures and EXIF metadata offline.',

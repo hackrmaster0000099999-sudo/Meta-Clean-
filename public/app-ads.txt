@@ -1,0 +1,4 @@
+# app-ads.txt for com.metaclean.bypass (MetaClean Android App)
+# Start.io Publisher Verification
+start.io, 102938475, DIRECT, f08c47fec0942fa0
+google.com, pub-9444956013660000, DIRECT, f08c47fec0942fa0
