@@ -1,0 +1,6 @@
+{
+  "name": "MetaClean App Download",
+  "description": "Bypass social media AI detection and preserve organic reach. Download MetaClean Android APK to strip C2PA signatures and EXIF metadata offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
